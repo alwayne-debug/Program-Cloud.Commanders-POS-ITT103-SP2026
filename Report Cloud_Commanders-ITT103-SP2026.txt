@@ -1,0 +1,49 @@
+Author: Alwayne Foster
+
+Date created: March 29 2026
+
+Course: ITT103
+
+GitHub public URL to code: https://github.com/alwayne-debug/Program-Cloud.Commanders-POS-ITT103-SP2026/blob/main/Program%20Cloud.Commanders-POS-ITT103-SP2026.py
+
+Program Description:
+
+How to run the program:
+
+To execute the Point of Sale (POS) system, you must first confirm that Python is installed on your computer, since the program is written in Python and requires a Python 3 interpreter.  If Python is available, the version number will be displayed; if not, you will need to install it before continuing.
+
+After confirming Python is installed, the next step is to store the program in a file. Open any code editor or text editor such as Notepad, Visual Studio Code, or IDLE, then copy and paste the POS system code into a new file. Save this file using a .py extension, for example pos_system.py. Note the folder where the file is saved so it can be easily located when running the program.
+
+Next, open your command prompt or terminal and move to the directory where the file is located. This is done using the cd command. For instance, if the file is saved on your Desktop, you would type cd Desktop. Once you are in the correct directory, run the program by typing python pos_system.py (or python3 pos_system.py if required) and pressing Enter.
+
+After launching the program, an interactive menu will be displayed with several options, including viewing available products, adding or removing items from the cart, and completing a purchase. You can operate the system by entering the number that corresponds to your chosen action and following the instructions shown on the screen. The application will keep running, allowing continuous transactions, until you select the option to exit.
+
+Purpose of the program:
+
+The Point of Sale (POS) System is developed to modernize and streamline the sales process in a retail store. Rather than relying on manual calculations and record-keeping, the system enhances accuracy and efficiency by enabling cashiers to:
+Add and manage items within a shopping cart 
+Automatically compute totals, taxes, and applicable discounts 
+Handle customer payments and determine change 
+Produce a detailed receipt for each transaction 
+Track inventory levels and display alerts for low-stock item
+
+Assumptions:
+
+The system operates under the following assumptions:
+Product information, including price and stock levels, is preloaded and stored in memory 
+Cashiers enter product names correctly (basic case formatting is handled using. title ()) 
+The system is intended for single-user operation (one cashier at a time) 
+Only cash payments are supported (no electronic payment methods) 
+A constant tax rate of 10% is applied to all purchases 
+5% fixed discount is applied to transactions exceeding $5000 
+
+Limitations:
+
+Although the system is effective for basic retail operations, it has several constraints:
+No persistent storage:  Once the program is closed all data is lost
+No barcode scanning capability: Items must be entered manually 
+No graphical user interface (GUI): Operates solely through the command line 
+Basic input validation: Incorrect product names may lead to errors 
+No receipt saving feature: Receipts are not stored  only displayed
+Single-user limitation: Cannot support multiple cashiers simultaneously 
+Fixed product catalog: Products cannot be added or modified during execution
